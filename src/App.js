@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      {user.email ? <button onClick={handleSignOut}>Sign Out</button>
+      {user.displayName ? <button onClick={handleSignOut}>Sign Out</button>
         :
         <div>
           <button onClick={handleGoogleSignIn}>Google SignIn</button>
